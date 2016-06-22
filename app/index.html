@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html class="no-js ng-scope" lang="en" ng-app="myTmoApp">
+<head>
+    <base href="/app/">
+    <meta charset="utf-8">
+    <title>Rebellion</title>
+    <!-- //href lang -->
+    <link href="https://www.t-mobile.com/" hreflang="en-US" rel="alternate">
+    <link href="https://es.t-mobile.com/" hreflang="es" rel="alternate">
+    <!-- //href lang -->
+    <meta content="" name="description">
+    <meta content="width=device-width maximum-scale=1" name="viewport">
+    <meta content="deny" http-equiv="X-Frame-Options">
+    <meta content="sameorigin" http-equiv="X-Frame-Options">
+    <!-- ngRepeat: (routeCtrl, cssUrl) in routeStyles -->
+    <meta content="!" name="fragment">
+	<link href='../bower_components/bootstrap/dist/css/bootstrap.css' rel="stylesheet" />
+	<link href='../bower_components/login-module-bower/css/login.css' rel="stylesheet" />
+	<script type="text/javascript" src='../bower_components/angular/angular.js'></script>
+	<script type="text/javascript" src='../bower_components/angular-ui-router/release/angular-ui-router.js'></script>
+	<script type="text/javascript" src='../bower_components/angular-bootstrap/ui-bootstrap-tpls.js'></script>
+	<script type="text/javascript" src='../bower_components/login-module-bower/release/login-module-config.js'></script>
+	<script type="text/javascript" src='app.js'></script
+</head>
+<body>
+<a ui-sref=".login">Link1</a>
+<a ui-sref=".logout">Link2</a>
+<div ui-view></div>
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "name": "check-login-module",
+  "authors": [
+    "Madanmohan Kannojiya <madanmohan.kannojiya@T-Mobile.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "login-module-bower": "*"
+  }
+}
